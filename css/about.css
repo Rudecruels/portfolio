@@ -1,0 +1,57 @@
+.about-section {
+  background: url(/images/podi5.jpg) no-repeat left;
+  background-size: 40%;
+  background-color: var(--bg);
+  overflow: hidden;
+  padding: 100px 0;
+}
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: var(--main-color);
+  padding: 150px;
+}
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.text {
+  font-size: 20px;
+  color: var(--main-font-color);
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .inner-container {
+    padding: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 110px;
+  }
+  .inner-container {
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .about-section {
+    padding: 0;
+  }
+  .inner-container {
+    padding: 60px;
+    background-color: transparent;
+  }
+}
+@media (max-width: 400px) {
+  .about-section {
+    background-size: auto;
+  }
+  .inner-container {
+    padding: 35px;
+    margin-right: 2rem;
+  }
+}
